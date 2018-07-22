@@ -1,6 +1,5 @@
-# include <stdio.h>
+# include "hello.h"
 
-int main(){
-	printf("Hello World!\n");
-	return 0; 
+void sayHello(){
+	printf("Hello C Language Programming!\n");	
 } 

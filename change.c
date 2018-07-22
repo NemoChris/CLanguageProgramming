@@ -1,12 +1,14 @@
-#include <stdio.h>
-
-int main(){
+#include "change.h"
+/* This is a program for finding change.
+ *	2018-07-22 12:50:43 auth:AlfredHuang 
+*/ 
+int findingChange(){
 	int price=0;
 	int change=0;
 	
-	printf("请输入金额（元）：");
+	printf("Please enter the amount:");
 	scanf("%d",&price);
 	change = 100 - price;
-	printf("找您%d元。\n",change);
-	return 0;
+	printf("%d dollars,please\n",change);
+	return change;
 }

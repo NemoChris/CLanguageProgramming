@@ -3,12 +3,14 @@
  *	2018-07-22 12:50:43 auth:AlfredHuang 
 */ 
 int findingChange(){
-	int price=0;
-	int change=0;
+	const int AMOUNT = 100;
+	int change = 0,
+		price = 0;
 	
-	printf("Please enter the amount:");
+	
+	printf("请输入金额（元）:");
 	scanf("%d",&price);
-	change = 100 - price;
-	printf("%d dollars,please\n",change);
+	change = AMOUNT - price;
+	printf("找您%d元。\n",change);
 	return change;
 }

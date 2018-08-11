@@ -1,31 +1,14 @@
 #include "reverseFunction.h"
 
 void reverseNumber(){
-	int inNum;
-	int reverNum; 
+	int a;
+	int b; 
 	
-	printf("Please enter the positive ingeter:");
-	scanf("%d",&inNum);
-	if(inNum<=0){
-		printf("The input must be positive ingeter!");
-		return;
-	}
-	
-	reverNum = inNum%10 * 100 + inNum%100/10*10 + inNum/100;
-	printf("The reverse number is %d",reverNum);
+	printf("请输入一个三位的整数：");
+	scanf("%d",&a);
+	// 个位 + 十位 + 百位	
+	b = a / 100 + a % 100 / 10 * 10 + a % 10 * 100;
+	printf("%d\n",b);
 	
 }
 
-void reverseString(){
-	char ch[] = "A righteous man may have many troubles";
-	int len = sizeof(ch)/sizeof(char);
-	//printf("len is %d",len);
-	
-	for(int i=len-1;i>=0;i--){
-		printf("%c",ch[i]);
-	}
-}
-
-//void swapChar(char* a,char* b){
-//	char tmp=char
-//}

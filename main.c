@@ -1,13 +1,7 @@
 #include <stdio.h>
-#include <stdlib.h>
-#include <time.h>
-#include "guessGame.h"
+#include "judgeIsPrimeNumber.h"
 
-
-int main(int argc, char *argv[]) {
-	
-			
- 	guess();	
-		
-	return 0;
+void main(int argc, char *argv[]) {
+				
+	judgePrimeNumberNumber(); 	
 }

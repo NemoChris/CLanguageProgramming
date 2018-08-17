@@ -28,3 +28,26 @@ void judgePrimeNumberNumber(){
 	
 	
 }
+
+void getLessThanOneHundredPrime() {
+	int j = 2;
+	int i = 2;
+	int middle = 0;
+	int isPrimeNumber = 1;
+	
+	printf("100以内的素数：\n");		
+	for(; j < 100; j++)	 {
+		middle = j/2;
+		isPrimeNumber = 1;
+		i = 2;
+		for(; i <= middle; i++){
+			if(j % i == 0){
+				isPrimeNumber = 0;
+				break;
+			}
+		}
+		if(isPrimeNumber == 1){
+			printf("%d  ", j);
+		}
+	}
+}

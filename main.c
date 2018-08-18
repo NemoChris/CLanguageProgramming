@@ -1,7 +1,7 @@
 #include <stdio.h>
-#include "judgeIsPrimeNumber.h"
+#include "maxCommonDivisor.h"
+void main(int argc, char *argv[])
+{
 
-void main(int argc, char *argv[]) {
-				
-	getLessThanOneHundredPrime(); 	
+	getMaxComDivisor();
 }

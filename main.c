@@ -1,8 +1,8 @@
 #include <stdio.h>
-#include "sumPrime.h"
+#include "getPrimeFactor.h"
 
-void main(int argc, char *argv[])
+int main(int argc, char *argv[])
 {
-
-	sumPrime();
+	getPrimeFactor();
+	return 0;	
 }

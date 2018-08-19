@@ -1,7 +1,8 @@
 #include <stdio.h>
-#include "maxCommonDivisor.h"
+#include "sumPrime.h"
+
 void main(int argc, char *argv[])
 {
 
-	getMaxComDivisor();
+	sumPrime();
 }

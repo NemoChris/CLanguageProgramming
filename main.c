@@ -1,8 +1,8 @@
 #include <stdio.h>
-#include "getPerfectNumberRange.h"
+#include "biggerThanAvg.h"
 
 int main(int argc, char *argv[])
 {
-	getPerfectNumberRange();
+	biggerThanAvg();
 	return 0;	
 }

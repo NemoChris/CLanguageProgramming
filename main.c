@@ -1,8 +1,8 @@
 #include <stdio.h>
-#include "getPrimeFactor.h"
+#include "getPerfectNumberRange.h"
 
 int main(int argc, char *argv[])
 {
-	getPrimeFactor();
+	getPerfectNumberRange();
 	return 0;	
 }

@@ -1,6 +1,7 @@
 {
     "files.associations": {
         "*.xtpl": "plaintext",
-        "numbersplit.h": "c"
+        "numbersplit.h": "c",
+        "stdio.h": "c"
     }
 }

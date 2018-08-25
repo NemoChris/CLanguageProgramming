@@ -1,8 +1,8 @@
 #include <stdio.h>
-#include "biggerThanAvg.h"
+#include "getSaddlePointOfMatrix.h"
 
 int main(int argc, char *argv[])
 {
-	biggerThanAvg();
-	return 0;	
+	getSaddlePointOfMatrix();
+	return 0;
 }

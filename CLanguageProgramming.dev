@@ -29,7 +29,7 @@ IncludeVersionInfo=0
 SupportXPThemes=0
 CompilerSet=0
 CompilerSettings=0000000000000000001000000
-UnitCount=39
+UnitCount=41
 
 [VersionInfo]
 Major=1
@@ -434,6 +434,26 @@ BuildCmd=
 FileName=getPerfectNumberRange.h
 CompileCpp=0
 Folder=
+Compile=1
+Link=1
+Priority=1000
+OverrideBuildCmd=0
+BuildCmd=
+
+[Unit40]
+FileName=sumOfPolynomial.c
+CompileCpp=0
+Folder=ChapterSix
+Compile=1
+Link=1
+Priority=1000
+OverrideBuildCmd=0
+BuildCmd=
+
+[Unit41]
+FileName=Î´ÃüÃû2.h
+CompileCpp=0
+Folder=ChapterSix
 Compile=1
 Link=1
 Priority=1000

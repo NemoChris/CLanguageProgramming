@@ -220,12 +220,11 @@ void validateGPS(){
 				printf("utcTime:%s\n",utcTime); 
 				printf("Success!\n");	
 				printf("BeiJingTime is %s\n",beiJingTime);				
-			}			
-			break;
+			}						
 		}else {
-			printf("Invalid GPS reenter:");
-			gets(str);
+			printf("Invalid GPS reenter:\n");			
 		}				
+		gets(str);
 	}
 	
 			 

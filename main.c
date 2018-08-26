@@ -1,8 +1,10 @@
 #include <stdio.h>
-#include "getSaddlePointOfMatrix.h"
+#include "inputText.h"
+
+
 
 int main(int argc, char *argv[])
 {
-	getSaddlePointOfMatrix();
+    inputALineOfText();
 	return 0;
 }
